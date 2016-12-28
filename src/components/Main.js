@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { Link } from 'react-router';
 import { Header, Container } from 'semantic-ui-react'
 
-const Main = React.createClass({
+class Main extends Component {
   render() {
     return (
       <Container>
@@ -14,7 +14,7 @@ const Main = React.createClass({
       </Container>
     )
   }
-});
+}
 
 export default Main;
 
