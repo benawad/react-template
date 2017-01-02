@@ -3,8 +3,8 @@ import { fork, call, put } from 'redux-saga/effects';
 
 
 function* call_(action) {
-  const result = yield call(_);
-  yield put({type: '', result});
+  //const result = yield call(_);
+  //yield put({type: '', result});
 }
 
 function* _Saga() {
