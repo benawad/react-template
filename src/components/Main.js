@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import { Link } from 'react-router';
-import { Header, Container } from 'semantic-ui-react'
+import { Header, Container } from 'semantic-ui-react';
 
-class Main extends Component {
+export default class Main extends Component {
   render() {
     return (
       <Container text>
@@ -12,9 +12,6 @@ class Main extends Component {
         </Header>
         {React.cloneElement(this.props.children, this.props)}
       </Container>
-    )
+    );
   }
 }
-
-export default Main;
-

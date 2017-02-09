@@ -6,7 +6,7 @@ import Main from './Main';
 
 function mapStateToProps(state) {
   return {
-  }
+  };
 }
 
 function mapDispatchToProps(dispatch) {
