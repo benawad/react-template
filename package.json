@@ -27,5 +27,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/benawad/react-template.git",
+  "author": "ben awad <benawad97@gmail.com>",
+  "license": "MIT"
 }
