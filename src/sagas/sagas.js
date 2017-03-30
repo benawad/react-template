@@ -1,5 +1,4 @@
-import { takeEvery } from 'redux-saga';
-import { fork, call, put } from 'redux-saga/effects';
+import { takeEvery, fork, call, put } from 'redux-saga/effects';
 
 function something() {
   // call api
@@ -11,7 +10,7 @@ function* callSomething(action) {
 }
 
 function* somethingSaga() {
-  yield* takeEvery('', callSomething);
+  yield takeEvery('', callSomething);
 }
 
 export default function* root() {
