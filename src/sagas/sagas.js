@@ -10,7 +10,7 @@ function* callSomething(action) {
 }
 
 function* somethingSaga() {
-  yield takeEvery('', callSomething);
+  yield takeEvery('MY_ACTION', callSomething);
 }
 
 export default function* root() {
